@@ -6,12 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:page_transition/page_transition.dart';
 
 class VideoSearchWidget extends StatefulWidget {
-  VideoSearchWidget({
-    Key key,
-    this.search,
-  }) : super(key: key);
-
-  final String search;
+  VideoSearchWidget({Key key}) : super(key: key);
 
   @override
   _VideoSearchWidgetState createState() => _VideoSearchWidgetState();
@@ -48,7 +43,7 @@ class _VideoSearchWidgetState extends State<VideoSearchWidget> {
                 context,
                 MaterialPageRoute(
                   builder: (context) => ResultsWidget(
-                    search: widget.search,
+                    search: textController.text,
                   ),
                 ),
               );
