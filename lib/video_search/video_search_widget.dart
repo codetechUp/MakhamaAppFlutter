@@ -49,8 +49,8 @@ class _VideoSearchWidgetState extends State<VideoSearchWidget> {
               );
             },
             icon: Icon(
-              Icons.add_box_outlined,
-              color: Colors.black,
+              Icons.search,
+              color: FlutterFlowTheme.tertiaryColor,
               size: 30,
             ),
             iconSize: 30,
@@ -68,37 +68,53 @@ class _VideoSearchWidgetState extends State<VideoSearchWidget> {
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
-              TextFormField(
-                controller: textController,
-                obscureText: false,
-                decoration: InputDecoration(
-                  hintText: 'search',
-                  hintStyle: FlutterFlowTheme.bodyText1.override(
-                    fontFamily: 'Poppins',
+              Align(
+                alignment: Alignment(0, 0),
+                child: Padding(
+                  padding: EdgeInsets.fromLTRB(0, 100, 0, 0),
+                  child: TextFormField(
+                    controller: textController,
+                    obscureText: false,
+                    decoration: InputDecoration(
+                      hintText: 'search',
+                      hintStyle: FlutterFlowTheme.bodyText1.override(
+                        fontFamily: 'Poppins',
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: FlutterFlowTheme.tertiaryColor,
+                          width: 1,
+                        ),
+                        borderRadius: BorderRadius.only(
+                          bottomLeft: Radius.circular(19),
+                          bottomRight: Radius.circular(19),
+                          topLeft: Radius.circular(19),
+                          topRight: Radius.circular(19),
+                        ),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: FlutterFlowTheme.tertiaryColor,
+                          width: 1,
+                        ),
+                        borderRadius: BorderRadius.only(
+                          bottomLeft: Radius.circular(19),
+                          bottomRight: Radius.circular(19),
+                          topLeft: Radius.circular(19),
+                          topRight: Radius.circular(19),
+                        ),
+                      ),
+                      filled: true,
+                      fillColor: Color(0xFF1E2428),
+                      prefixIcon: Icon(
+                        Icons.search,
+                        color: FlutterFlowTheme.tertiaryColor,
+                      ),
+                    ),
+                    style: FlutterFlowTheme.bodyText1.override(
+                      fontFamily: 'Poppins',
+                    ),
                   ),
-                  enabledBorder: UnderlineInputBorder(
-                    borderSide: BorderSide(
-                      color: Color(0x00000000),
-                      width: 1,
-                    ),
-                    borderRadius: const BorderRadius.only(
-                      topLeft: Radius.circular(4.0),
-                      topRight: Radius.circular(4.0),
-                    ),
-                  ),
-                  focusedBorder: UnderlineInputBorder(
-                    borderSide: BorderSide(
-                      color: Color(0x00000000),
-                      width: 1,
-                    ),
-                    borderRadius: const BorderRadius.only(
-                      topLeft: Radius.circular(4.0),
-                      topRight: Radius.circular(4.0),
-                    ),
-                  ),
-                ),
-                style: FlutterFlowTheme.bodyText1.override(
-                  fontFamily: 'Poppins',
                 ),
               )
             ],
