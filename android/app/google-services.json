@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "335585206780",
+    "project_id": "mychannel-635d9",
+    "storage_bucket": "mychannel-635d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335585206780:android:54ee9fe98d8fd5c96b9279",
+        "android_client_info": {
+          "package_name": "com.flutterflow.transfertargent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335585206780-693slk8gqa160dvm0rnt85mkklqgd7fo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjw_BSeOz-nnYWnj2rbdfAh5kzbjU2SYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335585206780-693slk8gqa160dvm0rnt85mkklqgd7fo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

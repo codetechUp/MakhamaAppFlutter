@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>335585206780-t07sbvtbpq5pvdju0i9080kpemc8thvn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.335585206780-t07sbvtbpq5pvdju0i9080kpemc8thvn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAf1RgKni6xOa3sTrfuL_JpZi5iEWPw6BM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>335585206780</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.flutterflow.transfertargent</string>
+	<key>PROJECT_ID</key>
+	<string>mychannel-635d9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mychannel-635d9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:335585206780:ios:adc2423dfc04a1fa6b9279</string>
+</dict>
+</plist>
