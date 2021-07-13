@@ -79,6 +79,7 @@ class _VideoSearchWidgetState extends State<VideoSearchWidget> {
                       hintText: 'search',
                       hintStyle: FlutterFlowTheme.bodyText1.override(
                         fontFamily: 'Poppins',
+                        color: FlutterFlowTheme.tertiaryColor,
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
@@ -113,6 +114,7 @@ class _VideoSearchWidgetState extends State<VideoSearchWidget> {
                     ),
                     style: FlutterFlowTheme.bodyText1.override(
                       fontFamily: 'Poppins',
+                      color: FlutterFlowTheme.tertiaryColor,
                     ),
                   ),
                 ),
